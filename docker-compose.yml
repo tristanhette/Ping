@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./ping_frontend  # Path to the directory containing your frontend Dockerfile
+    ports:
+      - "3000:5173"
+      - "5173:5173"
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: ./ping_backend  # Path to the directory containing your backend Dockerfile
+    ports:
+      - "8080:8080"

@@ -1,0 +1,35 @@
+
+  .file-tree{
+    list-style-type: none;
+    width: 100%;
+    margin-left: -20px;
+  }
+
+  .file-tree li button {
+    list-style-type: none;
+    background-color: transparent; /* Green background */
+    border: none;
+    color: black; /* White text */
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .file-tree label button{
+    margin-left: 20px;
+  }
+  
+  .file-tree li button:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Couleur de fond au survol (légèrement grisé) */
+  }
+  
+  .file-tree li button:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(33, 33, 33, 0.2); /* Effet de focus */
+  }
