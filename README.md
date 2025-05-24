@@ -1,3 +1,7 @@
+# Ping 2025
+
+Développement d’un IDE personnalisé inspiré d’un studio de musique en **Java**, dans le cadre d’un projet académique piloté par un client.
+
 ## Installation 1
 Pour installer et exécuter ce projet, suivez les étapes ci-dessous :
 1. Clonez le dépôt :
